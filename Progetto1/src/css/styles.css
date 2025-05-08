@@ -1,0 +1,91 @@
+/* Stile generale per il corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Intestazione */
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Contenuto principale */
+main {
+    padding: 1rem;
+}
+
+/* Sezione di input nuova attività */
+#task-input {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+#addTaskBtn {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addTaskBtn:hover {
+    background-color: #333;
+}
+
+/* Barra di ricerca e filtro stato */
+#search-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#searchInput {
+    flex: 2;
+    padding: 0.5rem;
+}
+
+#statusFilter {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+/* Lista delle attività */
+#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.task.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Stile per input inline durante modifica (se usato) */
+.task-editing input {
+    flex: 1;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+}
