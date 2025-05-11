@@ -1,0 +1,87 @@
+/* Stile generale */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenitore principale */
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Titolo */
+h1 {
+  margin-bottom: 1rem;
+}
+
+/* Display del cronometro */
+#display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background: rgb(10, 184, 184);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Pulsanti */
+.buttons button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#start {
+  background: green;
+  color: white;
+}
+
+#stop {
+  background: red;
+  color: white;
+}
+
+#reset {
+  background: black;
+  color: white;
+}
+
+#giro {
+  background: violet;
+  color: white;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
+
+/* Lista dei giri */
+#giri-list {
+  margin-top: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+#giri-list li {
+  background: #f4f4f9;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
