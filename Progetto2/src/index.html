@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cronometro Digitale</title>
+  
+  <!-- Collegamento al file CSS -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cronometro Digitale</h1>
+
+    <!-- Display del tempo -->
+    <div id="display">00:00:00</div>
+
+    <!-- Pulsanti di controllo -->
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+      <button id="giro">Giro</button>
+    </div>
+
+    <!-- Lista dinamica dei giri -->
+    <ul id="giri-list"></ul>
+  </div>
+
+  <!-- Collegamento al file JS -->
+  <script src="./js/cronometro.js"></script>
+</body>
+</html>
