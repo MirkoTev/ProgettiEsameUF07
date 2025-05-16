@@ -5,7 +5,7 @@ const addTaskBtn = document.getElementById('addTaskBtn');
 const searchInput = document.getElementById('searchInput');
 const statusFilter = document.getElementById('statusFilter');
 
-// Aggiungi nuova task
+// Aggiunge una nuova task
 addTaskBtn.addEventListener('click', () => {
     const name = taskInput.value.trim();
     if (name) {
@@ -15,7 +15,7 @@ addTaskBtn.addEventListener('click', () => {
     }
 });
 
-// Aggiorna vista al cambiare filtro o ricerca
+// Aggiorna la lista al cambiare filtro o ricerca
 searchInput.addEventListener('input', updateView);
 statusFilter.addEventListener('change', updateView);
 

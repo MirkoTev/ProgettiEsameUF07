@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meteo App</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌦 Meteo Locale</h1>
+
+    <!-- Bottone per ottenere la posizione attuale -->
+    <button id="getWeatherBtn">Ottieni Meteo dalla tua Posizione</button>
+
+    <h2>O Cerca una Località (Latitudine e Longitudine)</h2>
+    <!-- Form per inserire manualmente latitudine e longitudine -->
+    <form id="locationForm">
+      <input type="number" id="latitudeInput" placeholder="Latitudine" step="any" required>
+      <input type="number" id="longitudeInput" placeholder="Longitudine" step="any" required>
+      <button type="submit">Cerca</button>
+    </form>
+
+    <!-- Box per visualizzare i dati meteo -->
+    <div id="weather" class="weather-box hidden">
+      <h2>Meteo Attuale</h2>
+      <img id="weatherIcon" src="" alt="Icona Meteo">
+      <p><strong>Temperatura:</strong> <span id="temperature"></span>°C</p>
+      <p><strong>Umidità:</strong> <span id="humidity"></span>%</p>
+      <p><strong>Precipitazioni:</strong> <span id="precipitation"></span> mm</p>
+      <p><strong>Pioggia:</strong> <span id="rain"></span> mm</p>
+      <p><strong>Copertura nuvolosa:</strong> <span id="clouds"></span>%</p>
+      <p><strong>Vento:</strong> <span id="wind"></span> km/h</p>
+      <p><strong>Codice Meteo:</strong> <span id="code"></span></p>
+    </div>
+  </div>
+
+  <script src="js/meteo.js"></script>
+</body>
+</html>
