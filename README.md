@@ -1,6 +1,6 @@
 # Parziale n° 1 UF07 - Pietro Rocchio
 Questo repository contiene il progetto finale del modulo UF07: Web 1.  
-Il progetto è suddiviso in tre sotto-progetti distinti, ognuno con funzionalità e obiettivi specifici. Due di questi sono stati completati con le funzionalità avanzate, mentre il terzo sarà sviluppato in un secondo momento.
+Il progetto è suddiviso in tre sotto-progetti distinti, ognuno con funzionalità e obiettivi specifici. Sono stati svolti con successo tutti e tre i progetti.
 
 
 ## Contenuto del Progetto:
